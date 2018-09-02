@@ -1,4 +1,4 @@
-# MyDawn
+## MyDawn
 Developing a APP similar to dripping, using java to write a simple server can interact with the client and driver side with socket, and multithread technology to achieve a server and multiple clients. The API map of Baidu is used to locate, route and search peripheral services.
 
 
@@ -6,7 +6,8 @@ Developing a APP similar to dripping, using java to write a simple server can in
 
 在写之前要先加入百度地图sdk的jar包从百度地图开发者官网上就能下载
 
-百度地图sdk下载：http://lbsyun.baidu.com/index.php?title=sdk/download&action#selected=mapsdk_basicmap,mapsdk_searchfunction,mapsdk_lbscloudsearch,mapsdk_calculationtool,mapsdk_radar
+[百度地图sdk下载](http://lbsyun.baidu.com/index.php?title=sdk/download&action#selected=mapsdk_basicmap,mapsdk_searchfunction,mapsdk_lbscloudsearch,mapsdk_calculationtool,mapsdk_radar
+)
 
 官网（可翻墙选择）：http://developer.android.com/sdk/index.html
 
@@ -15,9 +16,9 @@ Developing a APP similar to dripping, using java to write a simple server can in
 
 而其中用到的一些与定位和路线规划有关的包可以在事例中查看导入
 
-首先是xml的布局文件，其中editText的background是采用的自定义的样式，而在edittext前面的小点是用来美化界面的，可以直接删除
+#首先是xml的布局文件，其中editText的background是采用的自定义的样式，而在edittext前面的小点是用来美化界面的，可以直接删除
 
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -149,13 +150,15 @@ Developing a APP similar to dripping, using java to write a simple server can in
     </LinearLayout>
 
 </RelativeLayout>
-
+```
 
 
 接下来是java代码
 
 主要实现功能为两个：定位和路线规划：
 
+
+```
 package com.ly.dawn;
 
 import com.baidu.location.BDLocation;
@@ -675,9 +678,15 @@ public class DriverMenu extends Activity implements BaiduMap.OnMapClickListener,
     }
 
 }
+```
+
 
 代码的开头导入了大量的包可以从百度地图下载的sdk中查看到
 
+下面附上运行之后的样例图片看看是不是想要的效果
+
+
+![加载失败]()
 
 
 
