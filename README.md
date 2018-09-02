@@ -688,6 +688,5 @@ public class DriverMenu extends Activity implements BaiduMap.OnMapClickListener,
 
 ![加载失败](https://github.com/Legend-yd/MyDawn/blob/master/20171223205633274.png)
 ![加载失败](https://github.com/Legend-yd/MyDawn/blob/master/20171223205617115.png)
-![加载失败]()
-<img src="https://github.com/Legend-yd/MyDawn/blob/master/20171223205540585.png" style="wide=40%">
+<img src="https://github.com/Legend-yd/MyDawn/blob/master/20171223205540585.png" style="text-align:center,wide:100px">
 
